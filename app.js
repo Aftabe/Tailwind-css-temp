@@ -9,8 +9,8 @@
 //   }
 
 $(document).ready(function(){
-    $("#main-menu").click(function(){
-      $("#new-f").slideUp();
+    $(".new-func").click(function(){
+      $(".new-func").slidToggle();
     });
     // $(".btn2").click(function(){
     //   $("p").slideDown();
