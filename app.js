@@ -2,17 +2,17 @@
 //     document.getElementById("mySidebar").style.width = "250px";
 //     document.getElementById("main").style.marginLeft = "250px";
 //   }
-  
+
 //   function closeNav() {
 //     document.getElementById("mySidebar").style.width = "0";
 //     document.getElementById("main").style.marginLeft= "0";
 //   }
 
-$(document).ready(function(){
-  $(".get-custom").click(function(){
-    $(".custom-cls").slidToggle();
+$(document).ready(function () {
+  $(".demo").click(function () {
+    $(".box").hidden();
   });
-  // $(".btn2").click(function(){
-  //   $("p").slideDown();
-  // });
 });
+// $(".btn2").click(function(){
+//   $("p").slideDown();
+// });
