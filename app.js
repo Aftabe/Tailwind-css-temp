@@ -9,10 +9,10 @@
 //   }
 
 $(document).ready(function(){
-    $(".new-func").click(function(){
-      $(".new-func").slidToggle();
-    });
-    // $(".btn2").click(function(){
-    //   $("p").slideDown();
-    // });
+  $(".get-custom").click(function(){
+    $(".custom-cls").slidToggle();
   });
+  // $(".btn2").click(function(){
+  //   $("p").slideDown();
+  // });
+});
