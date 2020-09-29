@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="/public/style.css">
     <script src="./all.js"></script>
     <title>Tailwind-css temp</title>
+
+    <style>
+        #panel, #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #88b117;
+            border: solid 1px #cc1111;
+        }
+
+        #panel {
+            padding: 50px;
+            /* display: none; */
+        }
+    </style>
 </head>
 
 <body>
@@ -75,7 +89,8 @@
                                     <button type="button"
                                         class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                                         aria-label="Close menu">
-                                        <svg id= "click" class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                        <svg id="click" class="h-6 w-6" stroke="currentColor" fill="none"
+                                            viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M6 18L18 6M6 6l12 12" />
                                         </svg>
@@ -198,6 +213,49 @@
     <div class="text-bold leading uppercase text  demo bg-yellow-600">demo</div>
 
     <div class="box bg-yellow-800 text-white p-10"></div>
+
+
+
+
+
+
+
+    <div id="flip">Click to slide the panel down or up</div>
+    <div id="panel" class="mb-64">Hello world!</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Script section -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
