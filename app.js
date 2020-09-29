@@ -7,12 +7,8 @@
 //     document.getElementById("mySidebar").style.width = "0";
 //     document.getElementById("main").style.marginLeft= "0";
 //   }
-
-$(document).ready(function () {
-  $(".demo").click(function () {
-    $(".box").hidden();
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
   });
 });
-// $(".btn2").click(function(){
-//   $("p").slideDown();
-// });
